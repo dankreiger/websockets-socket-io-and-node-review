@@ -1,4 +1,4 @@
-### Websockets, Socket-IO, and Node references examples
+### Websockets, Socket-IO, and Node examples for reference
 
 ---
 
