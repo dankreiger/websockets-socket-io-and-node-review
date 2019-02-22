@@ -1,0 +1,18 @@
+<input type="text" />
+
+<script>
+  let val = '\n🐶\tWau wau wau. A dog is going through the socket\n';
+  const input = document.querySelector('input');
+  input.oninput = ({ target: { value } }) => ws.send(value);
+
+  let ws = new WebSocket('ws://localhost:8000');
+  console.log(ws);
+
+  ws.onopen = event => {
+    ws.send(val);
+  };
+
+  ws.onmessage = event => {
+    console.log(event);
+  };
+</script>

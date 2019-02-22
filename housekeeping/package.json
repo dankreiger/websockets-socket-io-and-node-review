@@ -1,0 +1,12 @@
+{
+  "name": "housekeeping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "howdoinode.js",
+  "scripts": {
+    "start": "node howdoinode.js"
+  },
+  "keywords": [],
+  "author": "Dan Kreiger <dan@dankreiger.com> (http://www.dankreiger.com/)",
+  "license": "ISC"
+}
