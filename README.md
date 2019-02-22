@@ -6,18 +6,18 @@
 
 1. enter a directory
 
-   ```sh
-   $ cd CHOOSE_DIRECTORY
-   ```
+```sh
+$ cd CHOOSE_DIRECTORY
+```
 
 2. install dependencies
 
-   ```sh
-   $ npm install
-   ```
+```sh
+$ npm install
+```
 
 3. start server
 
-   ```sh
-   $ npm start
-   ```
+```sh
+$ npm start
+```
