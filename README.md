@@ -1,5 +1,7 @@
 ### Websockets, Socket-IO, and Node examples for reference
 
+![](websockets-demo.gif)
+
 ---
 
 ### Getting started
