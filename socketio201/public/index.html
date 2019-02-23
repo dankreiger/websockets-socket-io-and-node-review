@@ -1,0 +1,34 @@
+<link
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+
+<link rel="stylesheet" href="index.css" />
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <form class="row" id="message-form">
+        <div class="col-12 col-sm-10">
+          <input
+            class="form-control"
+            id="user-message"
+            type="text"
+            placeholder="Enter your message"
+          />
+        </div>
+        <div class="col-12 col-sm-2">
+          <input class="btn btn-primary w-100" type="submit" value="Send!" />
+        </div>
+      </form>
+      <ul class="list-group" id="messages">
+        <!-- THIS WILL BE POPULATED BY JAVASCRIPT! -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="./scripts.js"></script>
